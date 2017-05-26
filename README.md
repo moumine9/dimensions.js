@@ -1,7 +1,8 @@
 # dimensions.js
-A little script that I've created to adjust indivual elements positioning. margin and padding. While working on my projects, I've noticed that for indivual elements, I either had to create a style attribute (which can turn out to be messy when abused) or a class for each type of style ( padding50 to adjust padding to 50 for example). With the data-js selector, I found out I can do a lot of things : 
-- First of all, I can set style either for one side or globally (difference between data-marginright and data-margin).
-- I do not have to set a measure for the dimensioning. For example, I can do data-margin="30px" or data-margin="30%", it will be applied.
+A little script that I've created to adjust indivual elements positioning. margin and padding. While working on my projects, I've noticed that for indivual elements, I either had to create a style attribute (which can turn out to be messy when abused) or a class for each type of style ( padding50 to adjust padding to 50 for example). With the data-js selector, I found out I can do a lot of things :
+
+* First of all, I can set style either for one side or globally (difference between data-marginright and data-margin).
+* I do not have to set a measure for the dimensioning. For example, I can do data-margin="30px" or data-margin="30%", it will be applied.
 
 ## Pros vs Cons
 
