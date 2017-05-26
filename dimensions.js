@@ -1,4 +1,7 @@
-/************* Margins ***********************/
+
+$(document).ready(function() {
+    
+    /************* Margins ***********************/
 
 $("[data-margintop]").each(function() {
 
@@ -104,6 +107,6 @@ $("[data-minheight]").each(function() {
 
 
 /************************ Clone an element in terms of width height and position  *************************/
-
-
+    
+});
 
