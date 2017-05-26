@@ -1,5 +1,3 @@
-
-$(document).ready(function() {
     
     /************* Margins ***********************/
 
@@ -107,6 +105,5 @@ $("[data-minheight]").each(function() {
 
 
 /************************ Clone an element in terms of width height and position  *************************/
-    
-});
+   
 
