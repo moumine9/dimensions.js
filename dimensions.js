@@ -6,25 +6,25 @@ $("[data-margin-top]").each(function() {
     var val = $(this).data();
     console.log(val);
     
-    $(this).css("margin-top", val);
+    $(this).css("margin-top", val["marginTop"]);
 });
 
-$("[data-marginbottom]").each(function() {
+$("[data-margin-bottom]").each(function() {
 
     var val = $(this).data();
-    $(this).css("margin-bottom", val.marginbottom);
+    $(this).css("margin-bottom", val["marginBottom"] );
 });
 
-$("[data-marginleft]").each(function() {
+$("[data-margin-left]").each(function() {
 
     var val = $(this).data();
-    $(this).css("margin-left", val.marginleft);
+    $(this).css("margin-left", val.marginLeft);
 });
 
-$("[data-marginright]").each(function() {
+$("[data-margin-right]").each(function() {
 
     var val = $(this).data();
-    $(this).css("margin-right", val.marginright);
+    $(this).css("margin-right", val.marginRight);
 });
 
 // Apply the same values to the 4 corners.
@@ -37,28 +37,28 @@ $("[data-margin]").each(function() {
 
 /**************  Padding ********************/
 
-$("[data-paddingright]").each(function() {
+$("[data-padding-right]").each(function() {
 
     var val = $(this).data();
-    $(this).css("padding-right", val.paddingright);
+    $(this).css("padding-right", val.paddingRight);
 });
 
-$("[data-paddingleft]").each(function() {
+$("[data-padding-left]").each(function() {
 
     var val = $(this).data();
-    $(this).css("padding-left", val.paddingleft);
+    $(this).css("padding-left", val.paddingLeft);
 });
 
-$("[data-paddingtop]").each(function() {
+$("[data-padding-top]").each(function() {
 
     var val = $(this).data();
     $(this).css("padding-top", val.paddingtop);
 });
 
-$("[data-paddingbottom]").each(function() {
+$("[data-padding-bottom]").each(function() {
 
     var val = $(this).data();
-    $(this).css("padding-bottom", val.paddingbottom);
+    $(this).css("padding-bottom", val.paddingBottom);
 });
 
 $("[data-padding]").each(function() {
@@ -75,16 +75,16 @@ $("[data-width]").each(function() {
     $(this).css("width", val.width);
 });
 
-$("[data-maxwidth]").each(function() {
+$("[data-max-width]").each(function() {
 
     var val = $(this).data();
-    $(this).css("max-width", val.maxwidth);
+    $(this).css("max-width", val.maxWidth);
 });
 
-$("[data-minwidth]").each(function() {
+$("[data-min-width]").each(function() {
 
     var val = $(this).data();
-    $(this).css("min-width", val.minwidth);
+    $(this).css("min-width", val.minWidth);
 });
 
 $("[data-height]").each(function() {
@@ -93,16 +93,16 @@ $("[data-height]").each(function() {
     $(this).css("height", val.height);
 });
 
-$("[data-maxheight]").each(function() {
+$("[data-max-height]").each(function() {
 
     var val = $(this).data();
-    $(this).css("max-height", val.maxheight);
+    $(this).css("max-height", val.maxHeight);
 });
 
-$("[data-minheight]").each(function() {
+$("[data-min-height]").each(function() {
 
     var val = $(this).data();
-    $(this).css("min-height", val.minheight);
+    $(this).css("min-height", val.minHeight);
 });
 
 
