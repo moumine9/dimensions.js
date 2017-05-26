@@ -4,7 +4,7 @@
 $("[data-margin-top]").each(function() {
     
     var val = $(this).data();
-    alert(val);
+    console.log(val);
     
     $(this).css("margin-top", val);
 });
