@@ -14,27 +14,33 @@ This is I believe, a huge impact on performance, but it has to be proved properl
 ## Examples
 
 ### Padding
+~~~
 <div data-padding="30px"> </div>
 <div data-padding="0 30px"> </div>
 <div data-paddingtop="5%"> </div>
 <div data-paddingbottom="30px"> </div>
 <div data-paddingleft="2in"> </div>
 <div data-paddingright="2em"> </div>
+~~~
+
 
 ### Margin
+~~~
 <div data-margin="30px"> </div>
 <div data-margin="0 30px"> </div>
 <div data-margintop="5%"> </div>
 <div data-marginbottom="30px"> </div>
 <div data-marginleft="2in"> </div>
 <div data-marginright="2em"> </div>
+~~~
 
 ### Sizes
+~~~
 <div data-width="30px"> </div>
 <div data-minwidth="5%"> </div>
 <div data-maxwidth="30px"> </div>
 <div data-height="2in"> </div>
 <div data-minheight="2em"> </div>
 <div data-maxheight="30px"> </div>
-
+~~~
 
