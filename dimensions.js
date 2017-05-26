@@ -64,13 +64,46 @@ $("[data-padding]").each(function() {
     $(this).css("padding", val.padding);
 });
 
-/************************ Clone an element in terms of width height and position  *************************/
+/******************* Sizes ********************/
 
-$("[data-clone]").each(function() {
+$("[data-width]").each(function() {
 
     var val = $(this).data();
-    
-    $(this).css( $(val.clone).css() );
+    $(this).css("width", val.width);
 });
+
+$("[data-maxwidth]").each(function() {
+
+    var val = $(this).data();
+    $(this).css("max-width", val.maxwidth);
+});
+
+$("[data-minwidth]").each(function() {
+
+    var val = $(this).data();
+    $(this).css("min-width", val.minwidth);
+});
+
+$("[data-height]").each(function() {
+
+    var val = $(this).data();
+    $(this).css("height", val.height);
+});
+
+$("[data-maxheight]").each(function() {
+
+    var val = $(this).data();
+    $(this).css("max-height", val.maxheight);
+});
+
+$("[data-minheight]").each(function() {
+
+    var val = $(this).data();
+    $(this).css("min-height", val.minheight);
+});
+
+
+/************************ Clone an element in terms of width height and position  *************************/
+
 
 
