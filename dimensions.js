@@ -1,10 +1,10 @@
     
     /************* Margins ***********************/
 
-$("[data-margintop]").each(function() {
+$("[data-margin-top]").each(function() {
 
     var val = $(this).data();
-    $(this).css("margin-top", val.margintop);
+    $(this).css("margin-top", val);
 });
 
 $("[data-marginbottom]").each(function() {
