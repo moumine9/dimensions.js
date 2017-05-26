@@ -2,8 +2,10 @@
     /************* Margins ***********************/
 
 $("[data-margin-top]").each(function() {
-
+    
     var val = $(this).data();
+    alert(val);
+    
     $(this).css("margin-top", val);
 });
 
